@@ -10,5 +10,5 @@ if git -C "$REPO" diff --quiet && git -C "$REPO" diff --cached --quiet; then
 fi
 
 echo "⚠️  You have uncommitted dotfiles changes in $REPO"
-echo "    -> Run: backup-dotfiles && update-dotfiles"
+echo "    -> Run: backup-dotfiles-repo && update-dotfiles"
 
